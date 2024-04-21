@@ -6,9 +6,17 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        primary: '#07071C'
+      },
       fontFamily:{
         OpenSans: ["OpenSans", "sans-serif"],
       },
+    },
+  },
+  variants: {
+    extend: {
+      visibility: ["group-hover"],
     },
   },
   plugins: [],
